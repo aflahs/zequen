@@ -288,17 +288,6 @@ The contract is **compiled at server startup** using `solc` and **deployed fresh
 
 ---
 
-## Roadmap
-
-- [ ] IPFS storage for certificate PDFs
-- [ ] Mainnet / Polygon deployment support
-- [ ] Mobile-friendly verifier QR-code scanner
-- [ ] Multi-language certificate support
-- [ ] Webhook notifications for verification events
-- [ ] OAuth2 / SSO integration for university SSO systems
-
----
-
 <p align="center">
   <strong>Built to make credential fraud a thing of the past.</strong>
 </p>
