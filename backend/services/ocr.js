@@ -2,7 +2,7 @@ const { GoogleGenAI, Type } = require('@google/genai');
 const path = require('path');
 const fs = require('fs');
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyDRAnlYLgnwkrWRNgkj2cymdPf2vGyrzE0';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 /**
