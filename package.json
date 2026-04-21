@@ -1,0 +1,19 @@
+{
+  "name": "zequen",
+  "version": "1.0.0",
+  "description": "Federated document verification system with blockchain-backed authenticity checking",
+  "private": true,
+  "scripts": {
+    "backend": "node backend/server.js",
+    "init-db": "node backend/db/init.js",
+    "dev": "concurrently \"npm run backend\" \"npm run dev:university\" \"npm run dev:student\" \"npm run dev:issuer\" \"npm run dev:verifier\" \"npm run dev:ops\"",
+    "dev:university": "cd dashboards/university-admin && npm run dev",
+    "dev:student": "cd dashboards/student-portal && npm run dev",
+    "dev:issuer": "cd dashboards/issuer-portal && npm run dev",
+    "dev:verifier": "cd dashboards/verifier-portal && npm run dev",
+    "dev:ops": "cd dashboards/ops-dashboard && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
