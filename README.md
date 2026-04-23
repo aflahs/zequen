@@ -16,7 +16,7 @@ Zequen is a **federated, blockchain-backed document verification platform** desi
 
 The system is built for the **real-world gap** between institutions that issue credentials and employers/institutions that need to verify them reliably, instantly, and at zero marginal cost.
 
----
+-------
 
 ## Why Does This Exist? — The Problem
 
